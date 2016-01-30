@@ -117,7 +117,7 @@ public class MovieListActivityFragment extends Fragment{
                 String uri,apiKey,order;
 
                 uri = "http://api.themoviedb.org/3/discover/movie?";
-                apiKey = "&api_key=" + "538b4d1d9160b4964deefc5589df1b14";
+                apiKey = "&api_key=" + "YOUR_API_KEY";
 
                 sharedPref = PreferenceManager.getDefaultSharedPreferences(getActivity());
                 orderPref = sharedPref.getString("pref_orderKey", "");
